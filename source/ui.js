@@ -19,40 +19,36 @@ const handleSelect = item => {
 
 const items = [
 	{
-		label: 'Website',
-		url: 'https://sindresorhus.com'
+		label: 'Twitter',
+		url: 'https://twitter.com/nyakuro'
 	},
 	{
-		label: 'Twitter',
-		url: 'https://twitter.com/sindresorhus'
+		label: 'Website (music)',
+		url: 'https://sugarmosaic.com'
+	},
+	{
+		label: 'Bandcamp',
+		url: 'https://sugarmosaic.bandcamp.com/releases'
+	},
+	{
+		label: 'Sound Cloud',
+		url: 'https://soundcloud.com/nyakuro'
+	},
+	{
+		label: 'Pixiv (Illustration)',
+		url: 'https://www.pixiv.net/member.php?id=301649'
 	},
 	{
 		label: 'GitHub',
-		url: 'https://github.com/sindresorhus'
+		url: 'https://github.com/nyakuro'
 	},
 	{
 		label: 'Blog',
-		url: 'https://blog.sindresorhus.com'
-	},
-	{
-		label: 'Ask Me Anything',
-		url: 'https://github.com/sindresorhus/ama'
+		url: 'http://cat-b.hatenadiary.jp/'
 	},
 	{
 		label: 'Contact',
-		url: 'https://sindresorhus.com/contact'
-	},
-	{
-		label: 'Support my open source work',
-		url: 'https://www.patreon.com/sindresorhus'
-	},
-	{
-		label: 'Unicorns!',
-		async action() {
-			console.log(await terminalImage.file(path.join(__dirname, 'unicorn1.gif')));
-			console.log(await terminalImage.file(path.join(__dirname, 'unicorn2.gif')));
-			console.log(await terminalImage.file(path.join(__dirname, 'unicorn3.gif')));
-		}
+		url: 'http://sugarmosaic.com/contact/'
 	},
 	// TODO: Add separator item here when https://github.com/vadimdemedes/ink-select-input/issues/4 is done
 	{
@@ -67,7 +63,7 @@ module.exports = () => (
 	<div>
 		<br/>
 		<div>
-			<Text>I’m a full-time open-sourcerer making things like macOS apps, CLI tools, and modules.</Text>
+			<Text>I’m a web-app programmer(PHP, Javascript, Python), a songwriter, and a illustrator.</Text>
 		</div>
 		<br/>
 		<SelectInput items={items} onSelect={handleSelect}/>

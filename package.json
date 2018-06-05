@@ -1,16 +1,16 @@
 {
-	"name": "sindresorhus",
+	"name": "nyakuro",
 	"version": "2.0.1",
-	"description": "The Sindre Sorhus CLI",
+	"description": "The nyakuro CLI",
 	"license": "MIT",
-	"repository": "sindresorhus/sindresorhus",
+	"repository": "nyakuro/nyakuro",
 	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"name": "nyakuro",
+		"email": "nyakuro@gmail.com",
+		"url": "sugarmosaic.com"
 	},
 	"bin": {
-		"sindresorhus": "source/cli.js"
+		"nyakuro": "source/cli.js"
 	},
 	"engines": {
 		"node": ">=8"
@@ -24,8 +24,8 @@
 	"keywords": [
 		"cli-app",
 		"cli",
-		"sindresorhus",
-		"unicorns"
+		"nyakuro",
+		"sugarmosaic"
 	],
 	"dependencies": {
 		"import-jsx": "^1.3.0",
